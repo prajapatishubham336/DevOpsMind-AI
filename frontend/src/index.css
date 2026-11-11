@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #020617;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
